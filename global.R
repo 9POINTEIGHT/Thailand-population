@@ -1,9 +1,15 @@
 #import libraries
-library(shiny)
-library(dplyr)
-library(rgdal)
-library(leaflet)
-library(sp)
+# library(shiny)
+# library(dplyr)
+# library(rgdal)
+# library(leaflet)
+# library(sp)
+
+if(!require(shiny)) install.packages("shiny")
+if(!require(dplyr)) install.packages("dplyr")
+if(!require(rgdal)) install.packages("rgdal")
+if(!require(leaflet)) install.packages("leaflet")
+if(!require(sp)) install.packages("sp")
 
 Sys.setlocale("LC_CTYPE", "Thai")
 

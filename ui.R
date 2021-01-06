@@ -1,5 +1,5 @@
 ui <- fluidPage(
-  titlePanel("Thailand Poppulation / November 2563"),
+  titlePanel("Thailand Population / November 2563"),
   br(),
   fluidRow(column(2,
                   selectInput("levels",
